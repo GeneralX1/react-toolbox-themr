@@ -288,7 +288,7 @@ babel-runtime@^6.0.0, babel-runtime@^6.11.6, babel-runtime@^6.20.0, babel-runtim
     core-js "^2.4.0"
     regenerator-runtime "^0.10.0"
 
-babel-runtime@^6.23.0, babel-runtime@^6.26.0:
+babel-runtime@^6.23.0:
   version "6.26.0"
   resolved "https://registry.yarnpkg.com/babel-runtime/-/babel-runtime-6.26.0.tgz#965c7058668e82b55d7bfe04ff2337bc8b5647fe"
   integrity sha512-ITKNuq2wKlW1fJg9sSW52eepoYgZBggvOAHC0u/CYu/qxQ9EVzThCgR69BnSXLHjy2f7SY5zaQ4yt7H9ZVxY2g==
@@ -2357,14 +2357,13 @@ pluralize@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/pluralize/-/pluralize-1.2.1.tgz#d1a21483fd22bb41e58a12fa3421823140897c45"
 
-postcss-apply@^0.11.0:
-  version "0.11.0"
-  resolved "https://registry.yarnpkg.com/postcss-apply/-/postcss-apply-0.11.0.tgz#4bef9b443e4bfeeec5b094c7008bfe25dca5f40d"
-  integrity sha512-Y/uBl3p0H3jby+N3kvSNyuyLKZaCElCMMFWXSfEL9llEeCKupJ9Wit5Ms7TsAXFINexkWWwjiYfqPZ1nedi1Jw==
+postcss-apply@^0.12.0:
+  version "0.12.0"
+  resolved "https://registry.yarnpkg.com/postcss-apply/-/postcss-apply-0.12.0.tgz#11a47b271b14d81db97ed7f51a6c409d025a9c34"
+  integrity sha512-u8qZLyA9P86cD08IhqjSVV8tf1eGiKQ4fPvjcG3Ic/eOU65EAkDQClp8We7d15TG+RIWRVPSy9v7cJ2D9OReqw==
   dependencies:
-    babel-runtime "^6.26.0"
     balanced-match "^1.0.0"
-    postcss "^7.0.2"
+    postcss "^7.0.14"
 
 postcss-apply@^0.8.0:
   version "0.8.0"
@@ -2737,7 +2736,7 @@ postcss@^6.0, postcss@^6.0.0, postcss@^6.0.1, postcss@^6.0.11, postcss@^6.0.14, 
     source-map "^0.6.1"
     supports-color "^5.4.0"
 
-postcss@^7.0.1, postcss@^7.0.2, postcss@^7.0.36:
+postcss@^7.0.1, postcss@^7.0.14, postcss@^7.0.2, postcss@^7.0.36:
   version "7.0.39"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-7.0.39.tgz#9624375d965630e2e1f2c02a935c82a59cb48309"
   integrity sha512-yioayjNbHn6z1/Bywyb2Y4s3yvDAeXGOyxqD+LnVOinq6Mdmd++SW2wUNVzavyyHxd6+DxzWGIuosg6P1Rj8uA==
